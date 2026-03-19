@@ -1,0 +1,29 @@
+body{
+
+font-family:Arial;
+text-align:center;
+background:#f4f4f4;
+
+}
+
+button{
+
+padding:10px 20px;
+margin:10px;
+border:none;
+background:#2b7cff;
+color:white;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+.note{
+
+background:white;
+padding:15px;
+margin:10px auto;
+width:400px;
+border-radius:8px;
+
+}
