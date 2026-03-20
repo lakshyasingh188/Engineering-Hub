@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>ECE Notes</title>
+<meta charset="UTF-8">
+<title>ECE Study Materials</title>
+
+<link rel="stylesheet" href="ece.css">
+
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>ECE Study Materials</h1>
 
-<div id="semesterList"></div>
-<div id="subjectList"></div>
-<div id="fileList"></div>
+<div class="section">
+<h2>Select Semester</h2>
+<div id="semesterList" class="grid"></div>
+</div>
+
+<div class="section">
+<h2>Select Subject</h2>
+<div id="subjectList" class="grid"></div>
+</div>
+
+<div class="section">
+<h2>Study Materials</h2>
+<div id="fileList" class="file-grid"></div>
+</div>
+
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="ece.js"></script>
